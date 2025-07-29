@@ -1,5 +1,15 @@
 {
   "particles": {
+    "number": {
+      "value": 80
+    },
+    "size": {
+      "value": 3
+    }
+  }
+}
+{
+  "particles": {
     "number": { "value": 60 },
     "color": { "value": "#ffffff" },
     "shape": { "type": "circle" },
