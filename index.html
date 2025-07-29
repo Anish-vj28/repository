@@ -21,10 +21,12 @@
   </header>
 
   <section id="hero">
-    <h2 class="fade-in">Hi, I'm <span>Anish</span></h2>
-    <p class="fade-in delay">Aspiring Full Stack Developer & MCA Student</p>
-    <a href="#projects" class="btn">See My Work</a>
-  </section>
+  <div id="particles-js"></div>
+  <div class="hero-content">
+    <h1>Hello, I'm Anish</h1>
+    <p>Aspiring Full Stack Developer</p>
+  </div>
+</section>
 
   <section id="about">
     <h2 class="slide-up">About Me</h2>
@@ -54,5 +56,11 @@
   <footer class="footer fade-in">
     <p>© 2025 Anish P | Built with ❤️ using HTML, CSS & JS</p>
   </footer>
+  <script src="particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', 'particles-config.json', function() {
+    console.log('particles.js loaded successfully');
+  });
+</script>
 </body>
 </html>
